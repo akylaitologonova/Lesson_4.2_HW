@@ -80,7 +80,7 @@ public class Main {
         Random randomM = new Random();
         int newHealth = randomM.nextInt(16) + 2;
         for (int i = 0; i < heroesHealth.length; i++) {
-            if (heroesHealth[i] < 100 && heroesHealth[3] >0 && heroesHealth[i]>0) {
+            if (heroesHealth[i] < 100 && heroesHealth[2] >0 && heroesHealth[i]>0) {
                 heroesHealth[i] += newHealth;
                 System.out.println("new health " + heroesNames[i] + " " +
                         newHealth);
